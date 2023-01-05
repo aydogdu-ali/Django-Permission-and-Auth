@@ -1,14 +1,15 @@
 
-from .serializers import RegisterSerializer
-from django.contrib.auth.models import User
+from .serializers import RegisterSerializer # Çalışacağımızı olan serializers import ettik.
+from django.contrib.auth.models import User #Çalışacağımız modeli import ettik.
 
-from rest_framework.generics import CreateAPIView
+from rest_framework.generics import CreateAPIView  
 
 
 from rest_framework.authtoken.models import Token
 
 
-
+#Concrete Methodu ile class yazma
+# 2 parametre alır
 class RegisterView(CreateAPIView):
     queryset = User.objects.all()
     serializer_class = RegisterSerializer
