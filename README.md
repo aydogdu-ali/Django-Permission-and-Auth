@@ -7,11 +7,12 @@
 
 # Bu uygulamayı ayağa kaldırmak için sırasıyla
 
-## python -m venv env
-## source env/Scripts/Activate (windows-bash için)
-## pip install -r requirements.txt
-## python manage.py createsuperuser
-## python manage.py runserver
+# python -m venv env
+# source env/Scripts/Activate (windows-bash için)
+# pip install -r requirements.txt
+# python manage.py createsuperuser
+# python manage.py runserver komutları çalıştırılmaldır.
+
 
 
 
